@@ -93,10 +93,11 @@
     for (var i = 0; i < N; i++) {
       var im = i ? f.cloneNode() : f, face = (i === 0 || i === N - 1);
       im.style.transform = 'translateZ(calc(var(--t) * ' + ((N / 2 - i) * 1.15).toFixed(2) + '))';
-      im.style.filter = 'brightness(' + (face ? (i ? .85 : 1) : (.34 + .22 * (1 - i / N)).toFixed(2)) + ')';
+      if (i) { im.src = 'assets/immune-symbol-side.png'; im.style.filter = 'brightness(' + (face ? .7 : (.75 + .5 * (1 - i / N)).toFixed(2)) + ')'; }
+      if (face && i) im.src = 'assets/immune-symbol-chrome.png';
       if (i) sp.appendChild(im);
     }
-    var hd = document.getElementById('home');
+    var hd = document.querySelector('.logo3d');
     hd.addEventListener('pointermove', function(e){
       var r = hd.getBoundingClientRect(), nx = (e.clientX - r.left) / r.width * 2 - 1, ny = (e.clientY - r.top) / r.height * 2 - 1;
       tl.style.transform = 'rotateX(' + (-ny * 16).toFixed(1) + 'deg) rotateY(' + (nx * 20).toFixed(1) + 'deg)';
