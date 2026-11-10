@@ -57,9 +57,9 @@ header.top::after{content:"";position:absolute;inset:0;z-index:0;pointer-events:
 .hero h1{font-size:clamp(46px,7.6vw,104px);letter-spacing:-.005em;margin:20px 0;max-width:12ch;text-shadow:0 4px 40px rgba(0,0,0,.6)}
 .hero p{color:var(--mute);max-width:52ch;font-size:17px;margin-bottom:28px}
 .cta-row{display:flex;gap:12px;flex-wrap:wrap}
-.spark{position:absolute;right:8%;top:22%;width:clamp(90px,14vw,210px);z-index:1;filter:drop-shadow(0 0 24px rgba(255,255,255,.25));animation:float 7s ease-in-out infinite;pointer-events:none}
-.spark.s2{right:calc(8% + clamp(110px,16vw,240px));top:46%;width:clamp(40px,6vw,90px);animation-delay:-3s}
-@keyframes float{50%{transform:translateY(-16px) rotate(8deg)}}
+.logo3d{position:absolute;right:7%;top:50%;transform:translateY(-50%);width:clamp(180px,30vw,440px);z-index:1;perspective:1100px;pointer-events:none}
+.logo3d img{display:block;width:100%;height:auto;transform-style:preserve-3d;animation:spin 18s linear infinite;filter:drop-shadow(0 0 30px rgba(255,255,255,.22)) drop-shadow(0 20px 50px rgba(0,0,0,.6))}
+@keyframes spin{to{transform:rotateY(360deg)}}
 
 /* marquee */
 .marq{overflow:hidden;border-block:1px solid var(--line);padding:18px 0;background:rgba(18,19,21,.7);mask-image:linear-gradient(90deg,transparent,#000 12%,#000 88%,transparent)}
@@ -145,7 +145,7 @@ footer{padding:50px 24px 0;border-top:1px solid var(--line);overflow:hidden;back
 @media(max-width:900px){
   .bento{grid-template-columns:repeat(2,minmax(0,1fr))}.card,.card.w{grid-column:span 1}
   .stats,.steps,.plans,.contact{grid-template-columns:1fr}
-  .pill a:not(.btn){display:none}.spark{opacity:.5}
+  .pill a:not(.btn){display:none}.logo3d{opacity:.35;right:-6%}
 }
 @media(max-width:560px){.bento{grid-template-columns:1fr}.wrap{padding:0 16px}.hero{padding-top:104px}}
-@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.track,.spark{animation:none}.rv{opacity:1;transform:none;transition:none}.btn,.g{transition:none}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.track,.logo3d img{animation:none}.rv{opacity:1;transform:none;transition:none}.btn,.g{transition:none}}
