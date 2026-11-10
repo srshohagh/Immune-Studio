@@ -6,8 +6,8 @@ import { useEffect, useRef, useState } from 'react';
 const SMART = true;
 
 const LINKS = [
-  ['about', 'About'], ['results', 'Results'], ['experience', 'Experience'], ['services', 'Services'],
-  ['creative', 'Content'], ['skills', 'Skills'], ['education', 'Education'],
+  ['services', 'Services'], ['results', 'Results'], ['process', 'Process'], ['pricing', 'Pricing'],
+  ['faq', 'FAQ'], ['get a free reel', 'Get A Free Reel'], 
 ];
 
 export default function Nav() {
