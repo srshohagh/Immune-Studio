@@ -104,4 +104,27 @@
     });
     hd.addEventListener('pointerleave', function(){ tl.style.transform = ''; });
   }
+
+  // ---- our work: endless right-to-left rows, tilt and lightbox ----
+  document.querySelectorAll('.wtrack').forEach(function(tr){
+    var base = Array.prototype.slice.call(tr.children), guard = 0;
+    while (tr.scrollWidth < innerWidth * 1.15 && guard++ < 12) base.forEach(function(f){ tr.appendChild(f.cloneNode(true)); });
+    Array.prototype.slice.call(tr.children).forEach(function(f){ tr.appendChild(f.cloneNode(true)); });  // second set = seamless loop
+  });
+  document.querySelectorAll('.fx-fash').forEach(function(row){
+    row.addEventListener('pointermove', function(e){
+      var c = e.target.closest('.wc'); if (!c) return;
+      var r = c.getBoundingClientRect(), x = (e.clientX - r.left) / r.width, y = (e.clientY - r.top) / r.height;
+      c.style.setProperty('--ry', ((x - .5) * 16).toFixed(1) + 'deg'); c.style.setProperty('--rx', ((.5 - y) * 12).toFixed(1) + 'deg');
+      c.style.setProperty('--mx', (x * 100) + '%'); c.style.setProperty('--my', (y * 100) + '%');
+    });
+    row.addEventListener('pointerout', function(e){ var c = e.target.closest('.wc'); if (c) { c.style.setProperty('--rx', '0deg'); c.style.setProperty('--ry', '0deg'); } });
+  });
+  var lb = document.getElementById('lb'), lbi = lb.querySelector('img');
+  document.getElementById('work').addEventListener('click', function(e){
+    var c = e.target.closest('.wc'); if (!c) return;
+    var im = c.querySelector('img'); lbi.src = im.currentSrc || im.src; lbi.alt = im.alt; lb.hidden = false;
+  });
+  lb.addEventListener('click', function(){ lb.hidden = true; });
+  addEventListener('keydown', function(e){ if (e.key === 'Escape') lb.hidden = true; });
 })();
