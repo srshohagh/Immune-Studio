@@ -5,7 +5,7 @@
   var ARW = '<svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg>';
   var root = document.createElement('div'); root.className = 'cb';
   root.innerHTML =
-    '<button class="cb-fab" type="button" aria-label="Chat with Immune Studio" aria-expanded="false"><img src="' + LOGO + '" alt=""></button>' +
+    '<button class="cb-fab" type="button" aria-label="Chat with Immune Studio" aria-expanded="false"><canvas class="cb-orb" width="148" height="148"></canvas><img src="' + LOGO + '" alt=""></button>' +
     '<section class="cb-panel" role="dialog" aria-label="Immune Studio assistant" aria-hidden="true"><div class="cb-bg"></div><div class="cb-dots"></div>' +
     '<header class="cb-head"><div class="cb-id"><span class="cb-av"><img src="' + LOGO + '" alt=""></span><div><b>Immune Assistant</b><small><i></i>Online · instant answers</small></div></div>' +
     '<div class="cb-hb"><button type="button" class="cb-new" aria-label="New chat"><svg viewBox="0 0 24 24"><path d="M4 12a8 8 0 1 0 3-6.2M4 4v4h4"/></svg></button><button type="button" class="cb-x" aria-label="Close"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div></header>' +
@@ -77,6 +77,25 @@
   function ask(q){ q = (q || '').trim(); if (!q || busy) return; root.classList.add('chatting'); user(q); inp.value = ''; route(q); }
   function open(o){ root.classList.toggle('open', o); fab.setAttribute('aria-expanded', o); panel.setAttribute('aria-hidden', !o); menu.classList.remove('show'); if (o) setTimeout(function(){ inp.focus({preventScroll: true}); }, 420); }
 
+
+  // ---- particle sphere around the logo (wavy dotted globe) ----
+  var oc = $('.cb-orb'), ox = oc.getContext('2d'), P = [], N = 300, still = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  for (var i = 0; i < N; i++) { var yy = 1 - (i / (N - 1)) * 2, rr = Math.sqrt(1 - yy * yy), th = i * 2.399963; P.push([Math.cos(th) * rr, yy, Math.sin(th) * rr]); }
+  function orb(t){
+    var s = oc.width, c = s / 2, R = s * .39, a = t * .0004, ca = Math.cos(a), sa = Math.sin(a), ct = Math.cos(.55), st = Math.sin(.55);
+    ox.clearRect(0, 0, s, s);
+    for (var k = 0; k < N; k++) {
+      var p = P[k], x = p[0], y = p[1], z = p[2];
+      var w = 1 + .13 * Math.sin(3 * x + t * .0012) * Math.cos(2 * y + t * .001) + .06 * Math.sin(5 * z - t * .0015);
+      x *= w; y *= w; z *= w;
+      var x1 = x * ca + z * sa, z1 = -x * sa + z * ca, y2 = y * ct - z1 * st, z2 = y * st + z1 * ct;
+      var rim = Math.max(0, 1 - Math.abs(z2) / 1.15), al = .1 + .9 * Math.pow(rim, 2.2);
+      ox.fillStyle = 'rgba(255,255,255,' + al.toFixed(2) + ')';
+      ox.beginPath(); ox.arc(c + x1 * R, c + y2 * R, (.55 + 1.1 * rim) * (s / 74), 0, 6.283); ox.fill();
+    }
+    if (!still) requestAnimationFrame(orb);
+  }
+  requestAnimationFrame(orb);
   fab.addEventListener('click', function(){ open(!root.classList.contains('open')); });
   $('.cb-x').addEventListener('click', function(){ open(false); });
   $('.cb-new').addEventListener('click', function(){ thread.innerHTML = ''; setQR([]); S = {flow: null, step: 0, d: {}}; busy = false; root.classList.remove('chatting'); });
