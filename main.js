@@ -122,7 +122,7 @@
   });
   var lb = document.getElementById('lb'), lbi = lb.querySelector('img');
   document.getElementById('work').addEventListener('click', function(e){
-    var c = e.target.closest('.wc'); if (!c) return;
+    var c = e.target.closest('.wc, .ct'); if (!c) return;
     var im = c.querySelector('img'); lbi.src = im.currentSrc || im.src; lbi.alt = im.alt; lb.hidden = false;
   });
   lb.addEventListener('click', function(){ lb.hidden = true; });
