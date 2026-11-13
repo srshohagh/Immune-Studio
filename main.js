@@ -2,7 +2,7 @@
   var still = matchMedia('(prefers-reduced-motion: reduce)').matches;
 
   // marquee + year
-  var words = ['Real estate','E-commerce','Restaurants','Showrooms','Resorts','Factories','Garments','Startups','SMEs'];
+  var words = ['Real estate','E-commerce','Restaurants','Showrooms','Agency','Resorts','Factories','Garments','Startups','SMEs'];
   var t = document.getElementById('track');
   t.innerHTML = words.concat(words).map(function(w){return '<span>'+w+'</span>';}).join('');
   document.getElementById('yr').textContent = new Date().getFullYear();
