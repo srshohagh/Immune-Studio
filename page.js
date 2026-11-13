@@ -4,6 +4,17 @@
   // ---- page background: drifting dotted wave (reference 1) ----
   var bg = document.getElementById('bg'), bx = bg.getContext('2d'), BW, BH, mx = -999, my = -999;
   function sizeBg(){ BW = bg.width = innerWidth; BH = bg.height = innerHeight; }
+
+  
+<video
+  src="/assets/Immune-Studio-Intro-Web.mp4"
+  autoPlay
+  muted
+  loop
+  playsInline
+  controls
+/>
+
   sizeBg(); addEventListener('resize', sizeBg);
   addEventListener('pointermove', function(e){ mx = e.clientX; my = e.clientY; });
   function wave(time){
