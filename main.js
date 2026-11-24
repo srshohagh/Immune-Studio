@@ -20,6 +20,20 @@
   }, {threshold:.12});
   document.querySelectorAll('.rv').forEach(function(el){ io.observe(el); });
 
+  // section backdrop: whichever section crosses the middle of the screen sets <html data-sec>,
+  // and the CSS blends the black backdrop to that section's red/black/white mood
+  var secIo = new IntersectionObserver(function(es){
+    es.forEach(function(x){ if (x.isIntersecting) document.documentElement.setAttribute('data-sec', x.target.id === 'home' ? 'home' : x.target.id); });
+  }, {rootMargin:'-50% 0px -50% 0px'});
+  document.querySelectorAll('#home, #intro, #services, #work, #results, #process, #pricing, #faq, #contact').forEach(function(s){ secIo.observe(s); });
+  // the footer is short, so its top never reaches mid-screen: switch once half of it is visible
+  var ft = document.getElementById('footer');
+  if (ft) new IntersectionObserver(function(es){
+    var cur = document.documentElement.getAttribute('data-sec');
+    if (es[0].isIntersecting) document.documentElement.setAttribute('data-sec', 'footer');
+    else if (cur === 'footer') document.documentElement.setAttribute('data-sec', 'contact');
+  }, {threshold:.5}).observe(ft);
+
   // ---- page background: drifting dotted wave (reference 1) ----
   var bg = document.getElementById('bg'), bx = bg.getContext('2d'), BW, BH, mx = -999, my = -999;
   function sizeBg(){ BW = bg.width = innerWidth; BH = bg.height = innerHeight; }
@@ -27,10 +41,7 @@
   addEventListener('pointermove', function(e){ mx = e.clientX; my = e.clientY; });
   function wave(time){
     var s = 20, tt = time * 0.00022;
-    bx.clearRect(0, 0, BW, BH);
-    var g = bx.createLinearGradient(0, 0, BW, BH);
-    g.addColorStop(0, '#0b0b0c'); g.addColorStop(.6, '#121315'); g.addColorStop(1, '#1e2023');
-    bx.fillStyle = g; bx.fillRect(0, 0, BW, BH);
+    bx.clearRect(0, 0, BW, BH);   // transparent: the .bgfx backdrop (changes per section) shows through
     for (var y = 0; y < BH + s; y += s) {
       for (var x = 0; x < BW + s; x += s) {
         var z = Math.sin(x * 0.007 + tt * 3) * Math.cos(y * 0.005 - tt * 2) + Math.sin((x + y) * 0.004 + tt);
@@ -38,7 +49,7 @@
         var dx = x - mx, dy = y - my, d = Math.sqrt(dx * dx + dy * dy);
         var lift = d < 150 ? (1 - d / 150) : 0;     // dots swell near the pointer
         var r = 0.5 + k * 1.5 + lift * 1.6;
-        bx.fillStyle = 'rgba(210,214,222,' + (0.05 + k * k * 0.5 + lift * 0.35) + ')';
+        bx.fillStyle = lift > 0.15 ? (document.body.classList.contains('team') ? 'rgba(176,138,99,' : 'rgba(190,40,40,') + (0.3 + lift * 0.65) + ')' : 'rgba(255,255,255,' + (0.03 + k * k * 0.3) + ')';
         bx.beginPath(); bx.arc(x, y + (z - 1) * 7, r, 0, 6.283); bx.fill();
       }
     }
@@ -93,8 +104,8 @@
     for (var i = 0; i < N; i++) {
       var im = i ? f.cloneNode() : f, face = (i === 0 || i === N - 1);
       im.style.transform = 'translateZ(calc(var(--t) * ' + ((N / 2 - i) * 1.15).toFixed(2) + '))';
-      if (i) { im.src = 'assets/immune-symbol-side.png'; im.style.filter = 'brightness(' + (face ? .7 : (.75 + .5 * (1 - i / N)).toFixed(2)) + ')'; }
-      if (face && i) im.src = 'assets/immune-symbol-chrome.png';
+      if (i) { im.src = 'assets/immune-symbol-black-side.png'; im.style.filter = 'brightness(' + (face ? .8 : (.7 + .5 * (1 - i / N)).toFixed(2)) + ')'; }
+      if (face && i) im.src = 'assets/immune-symbol-black.png';
       if (i) sp.appendChild(im);
     }
     var hd = document.querySelector('.logo3d');

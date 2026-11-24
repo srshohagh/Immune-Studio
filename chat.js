@@ -1,5 +1,5 @@
 (function(){
-  var WA = '8801942319600', FB = 'https://www.facebook.com/share/1UAmAy9J2i/', LOGO = 'assets/immune-symbol-chrome.png';
+  var WA = '8801942319600', FB = 'https://www.facebook.com/share/1UAmAy9J2i/', LOGO = 'assets/immune-mark-white.png';
   var MAIN = ['Tell me about the services', 'I want a quote', 'I want to schedule a short meeting'];
   var hr = new Date().getHours(), GREET = hr < 12 ? 'Good Morning' : hr < 17 ? 'Good Afternoon' : 'Good Evening';
   var ARW = '<svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg>';
@@ -90,7 +90,8 @@
       x *= w; y *= w; z *= w;
       var x1 = x * ca + z * sa, z1 = -x * sa + z * ca, y2 = y * ct - z1 * st, z2 = y * st + z1 * ct;
       var rim = Math.max(0, 1 - Math.abs(z2) / 1.15), al = .1 + .9 * Math.pow(rim, 2.2);
-      ox.fillStyle = 'rgba(255,255,255,' + al.toFixed(2) + ')';
+      // glowing red globe with a light white core on the brightest rim dots
+      ox.fillStyle = rim > .72 ? 'rgba(255,226,230,' + al.toFixed(2) + ')' : (document.body.classList.contains('team') ? 'rgba(176,138,99,' : 'rgba(190,40,40,') + al.toFixed(2) + ')';
       ox.beginPath(); ox.arc(c + x1 * R, c + y2 * R, (.55 + 1.1 * rim) * (s / 74), 0, 6.283); ox.fill();
     }
     if (!still) requestAnimationFrame(orb);
