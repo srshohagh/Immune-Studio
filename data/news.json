@@ -1,6 +1,123 @@
 {
- "updated": "2026-11-24T21:40:42.736524+00:00",
+ "updated": "2026-11-25T05:57:43.407651+00:00",
  "items": [
+  {
+   "title": "Photoshop’s latest AI features are generating some controversy",
+   "link": "https://www.dpreview.com/news/new-york-times-adobe-photoshop-2027-restriction-ai/",
+   "source": "DPReview",
+   "date": "2026-11-25T05:15:51+00:00",
+   "summary": "The New York Times is requiring freelance photographers to stick to older versions of the software.",
+   "img": "https://www.dpreview.com/wp-content/uploads/2026/08/m_gi_adobe_photoshop_wordmark.jpeg",
+   "cat": "Cameras"
+  },
+  {
+   "title": "DJI’s dual-camera Air 3 hits its lowest price of 2026",
+   "link": "https://dronedj.com/2026/11/24/dji-air-3-drone-deal/",
+   "source": "DroneDJ",
+   "date": "2026-11-25T05:14:10+00:00",
+   "summary": "If you’ve been waiting for a good reason to upgrade your drone, this Black Friday might be the moment to stop waiting. The DJI Air 3 (DJI RC-N2) has dropped to $899 …",
+   "img": "https://dronedj.com/wp-content/uploads/sites/2/2024/06/dji-air-3-drone-buy-now-specs.jpg?quality=82&#038;strip=all&#038;w=1200",
+   "cat": "Drones"
+  },
+  {
+   "title": "Insta360 wants everyone to tell a better ski season story",
+   "link": "https://dronedj.com/2026/11/24/insta360-x6-winter-ski-update/",
+   "source": "DroneDJ",
+   "date": "2026-11-25T02:53:16+00:00",
+   "summary": "There’s something special about looking back at a ski trip. The runs you finally managed to conquer, the friends who kept you company, the spectacular mountain views…",
+   "img": "https://dronedj.com/wp-content/uploads/sites/2/2026/11/Insta360-X6-winter-ski-update.jpg?quality=82&#038;strip=all&#038;w=1200",
+   "cat": "Drones"
+  },
+  {
+   "title": "US financial crimes bureau discloses ‘cybersecurity incident’",
+   "link": "https://www.theverge.com/policy/1041957/fincen-treasury-cybersecurity-incident",
+   "source": "The Verge",
+   "date": "2026-11-25T01:00:00+00:00",
+   "summary": "The Financial Crimes Enforcement Network (FinCEN) disclosed on Tuesday that it's investigating a \"cybersecurity incident.\" The bureau, which is part of the Treasury…",
+   "img": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKS533_AI_AGENTS_HACKING_B.png?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+   "cat": "Tech and AI"
+  },
+  {
+   "title": "Yale’s Sonnenfeld: Nvidia is a ‘detriment’ to US industrial might — not a champion",
+   "link": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/",
+   "source": "TechCrunch",
+   "date": "2026-11-25T00:12:02+00:00",
+   "summary": "Yale's Jeffrey Sonnenfeld warns that what the market cheered Monday, Jensen Huang's White House–backed return as Nvidia's CEO and board member, could prove a giant…",
+   "img": "",
+   "cat": "Tech and AI"
+  },
+  {
+   "title": "Trump reportedly says pardoning Jensen Huang is ‘an option’",
+   "link": "https://techcrunch.com/2026/11/24/trump-reportedly-says-pardoning-jensen-huang-is-an-option-but-that-he-doesnt-think-it-will-be-necessary/",
+   "source": "TechCrunch",
+   "date": "2026-11-25T00:10:27+00:00",
+   "summary": "Huang faces ongoing questions about his relationship with Alice Huang, an executive with alleged ties to Chinese intelligence who previously worked for a company that…",
+   "img": "",
+   "cat": "Tech and AI"
+  },
+  {
+   "title": "The Verge’s 2026 gift guide for dads",
+   "link": "https://www.theverge.com/gadgets/1024777/best-gifts-for-dad-2026",
+   "source": "The Verge",
+   "date": "2026-11-24T23:59:29+00:00",
+   "summary": "Gone are the days when you could just buy your father a random tie or some leather-clad alcohol vessel or a shaving kit. Dads want - nay, deserve - something memorable…",
+   "img": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268757_2026_gift_guides_CVirginia_DADS.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+   "cat": "Tech and AI"
+  },
+  {
+   "title": "Why the US Army is about to blow up nearly 10,000 pounds of unstable explosives in Iowa",
+   "link": "https://www.theverge.com/science/1041819/us-army-detonation-lead-explosives-iowa",
+   "source": "The Verge",
+   "date": "2026-11-24T23:25:46+00:00",
+   "summary": "The US Army is moving ahead with plans to detonate the nation's stockpile of lead azide at an ammunition plant in Middletown, Iowa, at approximately 9:00AM CST on…",
+   "img": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2305973751.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+   "cat": "Tech and AI"
+  },
+  {
+   "title": "Jensen Huang still thinks a succession plan creates unnecessary hierarchy",
+   "link": "https://techcrunch.com/2026/11/24/jensen-huang-still-thinks-a-succession-plan-creates-unnecessary-hierarchy/",
+   "source": "TechCrunch",
+   "date": "2026-11-24T22:27:52+00:00",
+   "summary": "It's a remarkable stance for a company that spent the last two weeks finding out what happens without its founder.",
+   "img": "",
+   "cat": "Tech and AI"
+  },
+  {
+   "title": "Huawei found guilty of stealing trade secrets",
+   "link": "https://www.theverge.com/tech/1041820/huawei-guilty-trade-secrets-trial",
+   "source": "The Verge",
+   "date": "2026-11-24T22:23:27+00:00",
+   "summary": "A jury has found Huawei guilty of stealing US trade secrets, as reported earlier by NBC News and Bloomberg. The verdict, handed down in a federal court in New York…",
+   "img": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2302952808.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+   "cat": "Tech and AI"
+  },
+  {
+   "title": "Google Documents Advance Notice For Significant Ranking Updates via @sejournal, @MattGSouthern",
+   "link": "https://www.searchenginejournal.com/google-documents-advance-notice-for-significant-ranking-updates/598773/",
+   "source": "Search Engine Journal",
+   "date": "2026-11-24T22:06:57+00:00",
+   "summary": "New Search documentation explains when sites get advance notice of significant ranking updates, how to send feedback on them, and a new UK appeal route. The post Google…",
+   "img": "",
+   "cat": "Marketing"
+  },
+  {
+   "title": "In all-hands meeting, Jensen Huang thanks White House and says he’s in therapy",
+   "link": "https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy/",
+   "source": "TechCrunch",
+   "date": "2026-11-24T21:48:27+00:00",
+   "summary": "The Nvidia founder apologized to his staff on Tuesday and said he was grateful for a second chance to lead the company.",
+   "img": "",
+   "cat": "Tech and AI"
+  },
+  {
+   "title": "GTA VI PC recompilation project shut down by Take-Two",
+   "link": "https://www.theverge.com/news/1041690/grand-theft-auto-6-pc-recompilation-project-leonida-takedown-take-two",
+   "source": "The Verge",
+   "date": "2026-11-24T21:39:14+00:00",
+   "summary": "Game modding communities are racing to get Grand Theft Auto VI running on PC, but one big effort has been taken down by Take-Two today. Leonida, a fan project by…",
+   "img": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/STKS540_GTA_VI_2_A.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+   "cat": "Tech and AI"
+  },
   {
    "title": "Even the best AI agents struggle with everyday life",
    "link": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
@@ -47,6 +164,15 @@
    "cat": "Cameras"
   },
   {
+   "title": "The Verge’s 2026 holiday gift guide for moms",
+   "link": "https://www.theverge.com/gadgets/1021621/best-gifts-for-mom-2026",
+   "source": "The Verge",
+   "date": "2026-11-24T21:09:59+00:00",
+   "summary": "Given everything moms do for us, it feels good to give back during the holidays. But where to start? How do you come up with a physical representation of how you feel…",
+   "img": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268757_2026_gift_guides_UNDER_25_CVirginia_MOMS.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+   "cat": "Tech and AI"
+  },
+  {
    "title": "Dozens of oil and shipping tankers hacked in recent weeks, per report",
    "link": "https://techcrunch.com/2026/11/24/dozens-of-oil-and-shipping-tankers-hacked-in-recent-weeks-per-report/",
    "source": "TechCrunch",
@@ -65,24 +191,6 @@
    "cat": "Cameras"
   },
   {
-   "title": "TikTok was down",
-   "link": "https://www.theverge.com/tech/1041618/tiktok-down-outage",
-   "source": "The Verge",
-   "date": "2026-11-24T20:27:27+00:00",
-   "summary": "Earlier on Tuesday, TikTok experienced some issues, with videos, search results, favorites, and other features not loading as they usually do. Videos sometimes wouldn't…",
-   "img": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25406817/STK051_TIKTOK_CVirginia_B.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
-   "cat": "Tech and AI"
-  },
-  {
-   "title": "Jensen Huang reportedly tells Nvidia staff it’s ‘not true’ Trump got him rehired",
-   "link": "https://www.theverge.com/tech/1041571/jensen-huang-all-hands-nvidia-apology",
-   "source": "The Verge",
-   "date": "2026-11-24T20:02:03+00:00",
-   "summary": "Nvidia CEO Jensen Huang apologized to staff during his first all-hands since returning to the company, while attempting to distance himself from the narrative that the…",
-   "img": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2300373989.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
-   "cat": "Tech and AI"
-  },
-  {
    "title": "What A Billboard Network Knows About Measuring Search Ads That PPC Teams Forgot via @sejournal, @gregjarboe",
    "link": "https://www.searchenginejournal.com/what-a-billboard-network-knows-about-measuring-search-ads-that-ppc-teams-forgot/597854/",
    "source": "Search Engine Journal",
@@ -99,15 +207,6 @@
    "summary": "I am a workaholic. Which means I see holidays as an opportunity not to have to write three articles for this site and do chores and other things. I see them as an…",
    "img": "https://nofilmschool.com/media-library/screenwriting-lessons-from-thanksgiving-movies.jpg?id=68755280&width=980",
    "cat": "Cameras"
-  },
-  {
-   "title": "The clock is running out for America’s most contentious spying law",
-   "link": "https://www.theverge.com/policy/1041568/fisa-ndaa-blue-wave",
-   "source": "The Verge",
-   "date": "2026-11-24T20:00:00+00:00",
-   "summary": "Weeks before the end of the legislative session, some members of Congress are scrambling to reauthorize a controversial warrantless wiretapping authority, possibly by…",
-   "img": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/02/STK471_Government_Surveillance_CVirginia_E.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
-   "cat": "Tech and AI"
   },
   {
    "title": "The Chroma Awards Are Back as ElevenLabs’ Flagship Competition for AI Creators is Live",
@@ -137,15 +236,6 @@
    "cat": "Cameras"
   },
   {
-   "title": "Amazon is knocking almost $50 off six months of Apple TV",
-   "link": "https://www.theverge.com/gadgets/1040046/apple-tv-subscription-streaming-sale-deal-black-friday",
-   "source": "The Verge",
-   "date": "2026-11-24T19:00:00+00:00",
-   "summary": "Streaming deals aren’t as plentiful as they used to be, but they’re still around if you know where to look. One that caught our eye is an offer for Apple TV for those…",
-   "img": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/Severance_Photo_021019.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
-   "cat": "Tech and AI"
-  },
-  {
    "title": "Black Friday Sale: Save 30% on Excire’s Award-Winning Photo-Management Software",
    "link": "https://petapixel.com/2026/11/24/black-friday-sale-save-30-on-excires-award-winning-photo-management-software/",
    "source": "PetaPixel",
@@ -153,42 +243,6 @@
    "summary": "For most photographers, taking pictures is the fun part. But finding a particular image months later, organizing thousands of files, or selecting a handful of keepers…",
    "img": "https://petapixel.com/assets/uploads/2026/11/Excire-Black-Friday-Cover.jpg",
    "cat": "Cameras"
-  },
-  {
-   "title": "Now Firefox can select which sites use its VPN, and clear your browsing history with one click",
-   "link": "https://www.theverge.com/tech/1041474/firefox-161-vpn-rules-fire-button",
-   "source": "The Verge",
-   "date": "2026-11-24T18:44:57+00:00",
-   "summary": "Mozilla released Firefox 161 on Tuesday with a new setting you can use to choose which pages automatically open with the browser's VPN active. Using the \"Manage VPN…",
-   "img": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/firefox-vpn-rules.webp?quality=90&#038;strip=all&#038;crop=0,0,100,100",
-   "cat": "Tech and AI"
-  },
-  {
-   "title": "Anthropic shares fall below IPO price, a worrying sign for AI startups",
-   "link": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
-   "source": "TechCrunch",
-   "date": "2026-11-24T18:30:42+00:00",
-   "summary": "Anthropic’s post-IPO slump could put pressure on AI startup valuations.",
-   "img": "",
-   "cat": "Tech and AI"
-  },
-  {
-   "title": "David Fincher is being dragged for suspected use of AI in his latest film",
-   "link": "https://www.theverge.com/entertainment/1041417/david-fincher-netflix-cliff-booth-ai-interpositive",
-   "source": "The Verge",
-   "date": "2026-11-24T18:15:00+00:00",
-   "summary": "Though David Fincher's fans had been eagerly anticipating The Further Mis-Adventures of Cliff Booth, early screenings of the Once Upon a Time in Hollywood sequel…",
-   "img": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/UFP25_R4_Rec709_2p4gamma_6188x3240_20260828.0363314_R2.jpg?quality=90&#038;strip=all&#038;crop=20.001873779297,0,79.998126220703,100",
-   "cat": "Tech and AI"
-  },
-  {
-   "title": "UK warns AI-driven cyberattacks are exposing years of weak security",
-   "link": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/",
-   "source": "TechCrunch",
-   "date": "2026-11-24T18:02:59+00:00",
-   "summary": "The British cyber agency says that \"building strong foundations has never mattered more\" as AI hacking tools rely on exploiting simple security flaws.",
-   "img": "",
-   "cat": "Tech and AI"
   },
   {
    "title": "Nikon’s Long-Anticipated Firmware Update for the ZR is Finally Here",
@@ -218,15 +272,6 @@
    "cat": "Cameras"
   },
   {
-   "title": "Threads comes to iPad and takes a page from X’s playbook with cashtags",
-   "link": "https://techcrunch.com/2026/11/24/threads-comes-to-ipad-and-takes-a-page-from-xs-playbook-with-cashtags/",
-   "source": "TechCrunch",
-   "date": "2026-11-24T17:44:34+00:00",
-   "summary": "The addition of live stock quotes and charts could help Threads attract the financial community that has historically relied on X.",
-   "img": "",
-   "cat": "Tech and AI"
-  },
-  {
    "title": "New York Times Prohibits Photographers From Using Photoshop 2027",
    "link": "https://petapixel.com/2026/11/24/new-york-times-prohibits-photographers-from-using-photoshop-2027/",
    "source": "PetaPixel",
@@ -242,24 +287,6 @@
    "date": "2026-11-24T17:30:03+00:00",
    "summary": "Happy holidays to you, the new large-format cinematographer. If you’ve ever been curious about making the jump from your boring cinema cameras and their non-large-format…",
    "img": "https://nofilmschool.com/media-library/a-professional-fujifilm-video-camera-with-a-large-lens-against-an-orange-background.jpg?id=68759060&width=980",
-   "cat": "Cameras"
-  },
-  {
-   "title": "Dreame and Eufy are offering nearly 60 percent off robovacs for Black Friday",
-   "link": "https://www.theverge.com/gadgets/1040315/black-friday-best-early-robot-vacuum-mop-deals-2026",
-   "source": "The Verge",
-   "date": "2026-11-24T17:30:00+00:00",
-   "summary": "Between putting up decorations, entertaining guests, and meal prep, the holidays are busy enough without worrying about vacuuming. Thankfully, a proper robot vacuum can…",
-   "img": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/testing-matic-cues-gesture-control.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
-   "cat": "Tech and AI"
-  },
-  {
-   "title": "The Nikon ZR’s first big update is finally here",
-   "link": "https://www.dpreview.com/news/nikon-zr-v2-update-release-announcement/",
-   "source": "DPReview",
-   "date": "2026-11-24T17:10:12+00:00",
-   "summary": "Firmware V2 for the camera is still scheduled to release by the end of the year,",
-   "img": "https://www.dpreview.com/wp-content/uploads/2020/08/0337761917-product-photos-nikon_zr_z_cinema_logo.jpeg",
    "cat": "Cameras"
   },
   {
@@ -317,15 +344,6 @@
    "cat": "Marketing"
   },
   {
-   "title": "Insta360 wants everyone to tell a better ski season story",
-   "link": "https://dronedj.com/2026/11/24/insta360-x6-winter-ski-update/",
-   "source": "DroneDJ",
-   "date": "2026-11-24T14:53:16+00:00",
-   "summary": "There’s something special about looking back at a ski trip. The runs you finally managed to conquer, the friends who kept you company, the spectacular mountain views…",
-   "img": "https://dronedj.com/wp-content/uploads/sites/2/2026/11/Insta360-X6-winter-ski-update.jpg?quality=82&#038;strip=all&#038;w=1200",
-   "cat": "Drones"
-  },
-  {
    "title": "Testing the Limits of Precision Navigation Through Flying Car Racing",
    "link": "https://dronelife.com/2026/11/24/flying-car-racing-precision-navigation/",
    "source": "DroneLife",
@@ -344,11 +362,11 @@
    "cat": "Marketing"
   },
   {
-   "title": "What Bing’s AI Actually Cites: 883,000 Citations Analyzed via @sejournal, @dodgejd",
+   "title": "Bing’s AI Cites Support Pages, PDFs & Staff Bios – 883,313 Citations Analyzed via @sejournal, @dodgejd",
    "link": "https://www.searchenginejournal.com/what-bings-ai-actually-cites-883000-citations-analyzed/595708/",
    "source": "Search Engine Journal",
    "date": "2026-11-24T13:00:08+00:00",
-   "summary": "An analysis of 883,000 Bing AI citations shows overlooked PDFs, app pages, and support content earn citations and deserve a place in content audits. The post What Bing’s…",
+   "summary": "An analysis of 883,000 Bing AI citations shows overlooked PDFs, app pages, and support content earn citations and deserve a place in content audits. The post Bing’s AI…",
    "img": "",
    "cat": "Marketing"
   },
@@ -398,11 +416,11 @@
    "cat": "Drones"
   },
   {
-   "title": "Reddit’s AEO Tool Recommendations Have A Promoter Problem via @sejournal, @MattGSouthern",
+   "title": "Report Flags Most Reddit Users Rating AEO Tools As Likely Promoters via @sejournal, @MattGSouthern",
    "link": "https://www.searchenginejournal.com/check-whos-posting-before-you-trust-reddit-on-aeo-tools/598641/",
    "source": "Search Engine Journal",
    "date": "2026-11-23T22:52:42+00:00",
-   "summary": "An analysis of subreddits flagged most users weighing in on AEO tools as likely promoters. Among the rest, accuracy was the top feature complaint. The post Reddit’s AEO…",
+   "summary": "An analysis of subreddits flagged most users weighing in on AEO tools as likely promoters. Among the rest, accuracy was the top feature complaint. The post Report Flags…",
    "img": "",
    "cat": "Marketing"
   },
@@ -432,15 +450,6 @@
    "summary": "No injuries reported in November 20 incident involving an Amazon Prime Air MK30 drone An Amazon Prime Air delivery drone struck an overhead wire and came down on a…",
    "img": "",
    "cat": "Drones"
-  },
-  {
-   "title": "The Final Ad Checklist Before BFCM – What To Fix Now & What To Leave via @sejournal, @tonyadam",
-   "link": "https://www.searchenginejournal.com/the-final-ad-checklist-before-bfcm-what-to-fix-now-what-to-leave/597701/",
-   "source": "Search Engine Journal",
-   "date": "2026-11-23T15:00:32+00:00",
-   "summary": "Keep Black Friday ads running with final checks on budgets, purchase tracking, billing, and offers before the holiday rush. The post The Final Ad Checklist Before BFCM –…",
-   "img": "",
-   "cat": "Marketing"
   },
   {
    "title": "Congressional Report Highlights National Security Role of Commercial Drone Manufacturing",
@@ -476,15 +485,6 @@
    "date": "2026-11-22T07:21:10+00:00",
    "summary": "Some drones are built for professional filmmakers. Others are designed for people who already know their way around a joystick. And then there’s the DJI Flip, a drone…",
    "img": "https://dronedj.com/wp-content/uploads/sites/2/2025/03/dji-flip-best-beginner-drone.jpg?quality=82&#038;strip=all&#038;w=1200",
-   "cat": "Drones"
-  },
-  {
-   "title": "SkyeBrowse adds photorealism to drone 3D models, speeds up processing 3X",
-   "link": "https://dronedj.com/2026/11/20/drone-3d-model-skyebrowse-realistic/",
-   "source": "DroneDJ",
-   "date": "2026-11-21T07:24:05+00:00",
-   "summary": "SkyeBrowse wants your drone footage to look a lot more like reality. The 3D mapping platform has announced Realistic 3D, a major update that promises 3X faster…",
-   "img": "https://dronedj.com/wp-content/uploads/sites/2/2026/11/drone-3d-model-SkyeBrowse-Realistic.jpg?quality=82&#038;strip=all&#038;w=1200",
    "cat": "Drones"
   },
   {
